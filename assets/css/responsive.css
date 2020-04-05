@@ -25,6 +25,10 @@
     li {
         margin-left:-12px ;
     }
+    
+    h5 {
+        margin-top: 90px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -44,10 +48,12 @@
          margin-top: 15px;
         width: 300px;
     }
+
     #myImg
      {
         text-align: center;
     }
+   
  }
 
 
