@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Open+Sans|Poppins|Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    position: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 15px;
+    padding: 0;   
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    font-weight: bold;
+   color: black
+  }
+  
+  li.dropdown {
+    display: inline-block;
+    
+  }
+
+  li img {
+      padding-left: 70px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 80px;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+#myImg{
+    float: right;
+    width:50%;
+}
+
+#getStarted {
+    width: 50%;
+    float: left;
+}
+
+.value {
+    margin-top: 25%;
+    margin-left: 90px;
+}
+
+#content {
+    width: 100%;
+    background-color: red;
+}
+.back {
+    background-color: violet;
+}
+
+.value h5 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.value h1 {
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.btn {
+    
+    width: 170px;
+    padding: 12px;
+    font-size: 20px;
+    background-color: #425bff;
+    border: none;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    color: white;
+    font-family: "Poppins";
+}
+
+.btn:hover {
+    background-color: #2f41b1;
+}
+
+.left {
+    margin-left: 40px;
+}
