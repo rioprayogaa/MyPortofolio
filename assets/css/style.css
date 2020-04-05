@@ -80,9 +80,11 @@ ul {
 #myImg{
     float: right;
     width:50%;
+    margin-top: 60px;
 }
 
 #getStarted {
+    margin-top: 65px;
     width: 50%;
     float: left;
 }
@@ -94,7 +96,6 @@ ul {
 
 #content {
     width: 100%;
-    background-color: red;
 }
 .back {
     background-color: violet;
