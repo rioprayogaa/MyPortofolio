@@ -85,10 +85,10 @@ ul {
   }
 
   #getStarted {
-    padding-left: 60px;
+    margin-left: 30px;
     float: left;
     width: 50%;
-    margin-top: 100px;
+    margin-top: 110px;
   }
 
   #myImg {
